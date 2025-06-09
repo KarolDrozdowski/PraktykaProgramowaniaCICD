@@ -1,13 +1,21 @@
-# przykladowe funckje utils.py
+"przykladowe funckje utils.py"
+
 
 def add(a: int, b: int) -> int:
-	return a + b
+    "Adds two number together"
+    return a + b
+
 
 def substract(a: int, b: int) -> int:
-	return a - b
+    "Substracts two numbers"
+    return a - b
+
 
 def multiply(a: int, b: int) -> int:
-	return a * b
+    "Multiplies two numbers"
+    return a * b
+
 
 def divide(a: int, b: int) -> float:
-	return a / b
+    "Divides one number by other"
+    return a / b
