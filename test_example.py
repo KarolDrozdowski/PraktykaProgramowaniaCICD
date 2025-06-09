@@ -8,7 +8,7 @@ import utils
 def test_add(a, b, expected):
     "Tests adding function"
     result = utils.add(a, b)
-    return result == expected
+    assert result == expected
 
 
 @pytest.mark.parametrize(
