@@ -4,7 +4,7 @@ import pytest
 import utils
 
 
-@pytest.mark.parametrize("a, b, expected", [(1, 2, 3), (2, 3, 5), (3, 4, 6), (4, 5, 9)])
+@pytest.mark.parametrize("a, b, expected", [(1, 2, 3), (2, 3, 5), (3, 4, 7), (4, 5, 9)])
 def test_add(a, b, expected):
     "Tests adding function"
     result = utils.add(a, b)
